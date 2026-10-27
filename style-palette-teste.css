@@ -1,0 +1,224 @@
+/* Paleta de teste: creme e bege texturizados, com dourado e castanho-dourado. */
+:root{--cream:#F6EDDE;--blush:#E8D7BC;--rose:#A87931;--rose-deep:#80521F;--coffee:#382E21;--gold:#A87931;--muted:#62574A;--line:#C7AD7D;--heading-gold:#A87931;--fabric-shadow:#DCC39B;--signature:#A87931;--caramel:#80521F;--sand:#BCA480}
+body{background-color:#F6EDDE;color:#382E21;background-image:radial-gradient(ellipse at 12% 8%,rgba(255,255,255,.52),transparent 36%),radial-gradient(ellipse at 86% 76%,rgba(183,151,103,.08),transparent 40%),repeating-linear-gradient(0deg,rgba(108,83,48,.045) 0,rgba(108,83,48,.045) 1px,transparent 1px,transparent 4px)}
+.site-header{background:rgba(247,241,232,.97);border-bottom-color:rgba(167,131,69,.35)}
+.nav,.nav.open{background-color:#F6EDDE}.nav a{color:#382E21}
+.site-header a.header-cta{background:#80521F!important;color:#fff!important;border-color:#A87931}
+.hero{background-color:#382E21;color:#F6EDDE}
+.hero-photo:after{background:linear-gradient(90deg,#382E21 0%,rgba(53,45,37,.98) 8%,rgba(53,45,37,.9) 28%,rgba(53,45,37,.34) 59%,rgba(53,45,37,.02) 100%)}
+.hero-title,.hero-title .hero-last-word{color:#F6EDDE!important}.hero-title .hero-last-word{color:#E2BF70!important}
+.hero-description,.hero-note,.hero-trust,.hero-scroll,.hero-kicker,.hero-kicker .hero-kicker-clinic{color:#F6EDDE!important}.hero-kicker .hero-kicker-location{color:#E2BF70!important}
+a.hero-button{background:#80521F!important;color:#fff!important;border-color:#C1A16A;box-shadow:0 8px 22px rgba(20,14,10,.17)}a.hero-button span{color:#fff!important}
+.address-strip{background:#80521F;color:#fff}
+.marquee{background-color:#E8D7BC;border-color:#C7AD7D}.marquee-set{color:#51402A}
+.welcome,.procedure-section,.testimonials,.reviews-section,.about,.site-footer,.gallery-section,.resin-gallery-section,.instagram-section,.before-after-section:nth-of-type(even){background-color:#E8D7BC;color:#382E21;background-image:radial-gradient(ellipse at 8% 14%,rgba(255,255,255,.38),transparent 44%),repeating-linear-gradient(0deg,rgba(108,83,48,.045) 0,rgba(108,83,48,.045) 1px,transparent 1px,transparent 4px)}
+section.section{background-color:#F6EDDE;color:#382E21;background-image:radial-gradient(ellipse at 90% 12%,rgba(255,255,255,.48),transparent 40%),repeating-linear-gradient(0deg,rgba(108,83,48,.035) 0,rgba(108,83,48,.035) 1px,transparent 1px,transparent 5px)}
+section.section.about,section.section.reviews-section,section.instagram-section,section.gallery-section,section.resin-gallery-section,section.procedure-section,section.testimonials,section.site-footer{background-color:#E8D7BC}
+h1,h2,h3,h4,h5,h6,.serif,.section-intro h2,.review-heading h2,.gallery-heading h3,.about-intro h2{color:#A87931!important}
+.eyebrow,.text-link,.nav a,.footer-links a,.instagram-link,.treatment-link,.review-more,.gallery-link{color:#80521F}
+.section-intro p,.about-copy p,.about .team-story p,.unit-detail,.faq-answer,.team-bio,.review-quote,.review-disclaimer,.professional-registry,.footer-responsibles{color:#4D4131}
+.procedure-visual,.procedure-visual:nth-child(2n),.procedure-visual:nth-child(3n){background:linear-gradient(145deg,#DCC39B,#C7A66D 55%,#A87931)}
+.procedure-card,.quote-card,.review-card,.treatment-card,.gallery-case,.before-after-card,.unit-card,.review-dialog{background-color:#F6EDDE;color:#382E21;border-color:rgba(167,131,69,.55)}
+.review-card:nth-child(3n),.procedure-card:nth-child(2n){background-color:#F1E5D0}.review-avatar{background:#E8D7BC;color:#382E21}
+.review-identity strong,.review-author,.review-person,.review-dialog,.review-dialog h3{color:#382E21}
+.about .team-card,.professional-responsibility,.team-card{background:#F6EDDE;color:#382E21;border-color:rgba(167,131,69,.5)}
+.team-cro,.professional-responsibility strong{color:#80521F}.site-footer{color:#382E21;border-top:1px solid rgba(167,131,69,.35)}
+.footer-responsibles,.site-footer p,.site-footer .footer-links a,.about .team-card-copy p,.about .team-story p{color:#4D4131}
+.btn,.btn-light,.header-cta,.whatsapp-float{background:#80521F;color:#fff;border-color:#A87931}.btn:hover,.btn-light:hover,.header-cta:hover{background:#634017;color:#fff}
+
+.address-strip{background:#80521F;color:#fff;padding:15px 12px;font-size:12px;letter-spacing:.04em}
+.address-strip a,.address-strip a:visited{color:#fff!important;text-decoration:none;text-underline-offset:4px}
+.address-strip a:hover,.address-strip a:focus-visible{text-decoration:underline;color:#fff!important}
+.address-strip a:focus-visible{outline:2px solid #F6EDDE;outline-offset:4px}
+.address-strip{margin-top:20px;padding:17px 12px;border-radius:3px}
+@media(max-width:760px){.address-strip{margin-top:14px;padding:16px 12px}}
+
+/* Fundo perolado em toda a página principal. O simulador mantém sua própria paleta. */
+body{background-color:#F6EDDE!important;background-image:url('./assets/tecido-perolado.jpg')!important;background-position:center center;background-size:cover;background-attachment:fixed;color:#382E21}
+.site-header,.nav,.nav.open,.marquee,.address-strip,section.section,.evaluate,.site-footer,.dark-cta{background-color:rgba(246,237,222,.22)!important;background-image:linear-gradient(rgba(246,237,222,.28),rgba(246,237,222,.28)),url('./assets/tecido-perolado.jpg')!important;background-size:cover!important;background-position:center center!important;background-attachment:scroll,fixed!important;color:#382E21}
+section.section.about,section.section.reviews-section,section.section.instagram-section,section.section.procedure-section,section.section.gallery-section,section.section.testimonials,section.section.possibilities,section.section#faq,section.section#como-funciona,section.section#unidades,section.section#sobre,section.site-footer{background-color:rgba(246,237,222,.2)!important;background-image:linear-gradient(rgba(246,237,222,.22),rgba(246,237,222,.22)),url('./assets/tecido-perolado.jpg')!important;color:#382E21}
+.hero{background-color:#F6EDDE!important;background-image:url('./assets/tecido-perolado.jpg')!important;background-size:cover!important;background-position:center center!important;background-attachment:fixed!important;color:#382E21}
+.hero-photo:after{background:linear-gradient(90deg,rgba(246,237,222,.98) 0%,rgba(246,237,222,.84) 28%,rgba(246,237,222,.42) 54%,rgba(246,237,222,.02) 100%)!important}
+.hero .hero-title,.hero .hero-title .hero-last-word{color:#A87931!important;text-shadow:none!important}
+.hero .hero-description,.hero .hero-kicker,.hero .hero-kicker .hero-kicker-clinic,.hero .hero-note,.hero .hero-trust,.hero .hero-scroll{color:#382E21!important}
+.hero .hero-kicker .hero-kicker-location{color:#80521F!important}
+.address-strip a,.address-strip a:visited{color:#382E21!important}
+.dark-cta h2,.dark-cta p{color:#382E21!important}
+@media(max-width:760px){.hero{background-image:url('./assets/tecido-perolado.jpg')!important}.hero-photo{inset:0 0 auto!important;width:100%!important;height:58%!important}.hero-photo img{object-position:center 24%!important}.hero-photo:after{background:linear-gradient(180deg,rgba(246,237,222,0) 48%,rgba(246,237,222,.34) 70%,#F6EDDE 100%)!important}.hero .hero-title,.hero .hero-title .hero-last-word{color:#A87931!important}.hero .hero-description,.hero .hero-kicker,.hero .hero-kicker .hero-kicker-clinic,.hero .hero-note{color:#382E21!important}}
+.simulator-section{background-color:#F6EDDE!important;background-image:none!important}
+@media(max-width:760px){
+  .hero-grid{width:calc(100% - 40px)!important;max-width:1120px;margin-inline:auto!important}
+  .hero-copy{width:100%;min-width:0}
+  .hero-copy a.hero-button{box-sizing:border-box;max-width:100%;white-space:normal;overflow:visible}
+}
+@media(max-width:760px){
+  .hero-grid{width:100%!important;max-width:none!important;padding-inline:20px!important;margin-inline:0!important}
+  .hero-copy{width:100%!important;max-width:none!important;min-width:0!important;padding:0!important;margin:0!important}
+  .hero-copy a.hero-button{display:inline-flex!important;width:auto!important;min-width:0!important;max-width:100%!important;min-height:46px;padding-inline:14px!important;gap:12px!important;margin-inline:0!important;box-sizing:border-box!important;font-size:clamp(9px,3.7vw,11px)!important;white-space:normal!important;transform:none}
+  .hero-copy a.hero-button span{flex:0 0 auto}
+}
+/* Botão em formato de pílula conforme a referência enviada. */
+a.hero-button{display:inline-flex!important;align-items:center!important;justify-content:center!important;width:max-content!important;min-width:0!important;max-width:min(100%,calc(100vw - 40px))!important;min-height:48px!important;padding:0 20px!important;gap:12px!important;border:1px solid #A87931!important;border-radius:999px!important;background:#80521F!important;color:#fff!important;box-shadow:none!important;font:600 10px/1.2 var(--sans)!important;letter-spacing:.055em!important;text-transform:uppercase!important;text-decoration:none!important;white-space:nowrap!important;overflow:visible!important;transform:none}
+a.hero-button span{flex:0 0 auto;color:#fff!important;font-size:14px!important}
+@media(max-width:760px){.hero-grid{width:100%!important;padding-inline:20px!important}.hero-copy{width:100%!important;min-width:0!important;padding:0!important}.hero-copy a.hero-button{max-width:calc(100vw - 40px)!important;padding-inline:16px!important;font-size:clamp(9px,3.45vw,10px)!important;gap:10px!important}}
+/* Correspondência com a referência: pílula sem seta e texto centralizado. */
+a.hero-button{display:inline-flex!important;align-items:center!important;justify-content:center!important;width:max-content!important;min-width:0!important;max-width:min(100%,calc(100vw - 40px))!important;height:46px!important;min-height:46px!important;padding:0 22px!important;gap:0!important;border:1px solid #8B5A20!important;border-radius:999px!important;background:#8B5A20!important;color:#fff!important;box-shadow:none!important;font:600 11px/1.2 var(--sans)!important;letter-spacing:.045em!important;text-transform:uppercase!important;text-decoration:none!important;white-space:nowrap!important;overflow:visible!important}
+a.hero-button span{display:none!important}
+@media(max-width:760px){.hero-copy a.hero-button{max-width:calc(100vw - 40px)!important;height:46px!important;min-height:46px!important;padding-inline:18px!important;font-size:clamp(9px,3.7vw,11px)!important;white-space:nowrap!important}}
+/* Tamanho da pílula igual ao botão de referência. */
+a.hero-button{width:188px!important;height:47px!important;min-height:47px!important;max-width:calc(100vw - 40px)!important;padding:0 10px!important;border-radius:24px!important;font-size:9px!important;letter-spacing:.02em!important;white-space:nowrap!important;}
+@media(max-width:760px){.hero-copy a.hero-button{width:188px!important;height:47px!important;min-height:47px!important;max-width:calc(100vw - 40px)!important;padding:0 8px!important;font-size:clamp(8px,3.2vw,9px)!important;letter-spacing:.01em!important}}
+/* Tipografia solicitada: preserva integralmente as cores da paleta anterior. */
+:root{--serif:'Playfair Display',Georgia,serif;--sans:'Inter','Montserrat',Arial,sans-serif}
+body{font-family:'Inter','Montserrat',Arial,sans-serif!important}
+h1,h2,h3,h4,h5,h6,.serif,.section-intro h2,.review-heading h2,.gallery-heading h3,.about-intro h2,.hero .hero-title,.hero .hero-title .hero-last-word{font-family:'Playfair Display',Georgia,serif!important}
+p,.section-intro p,.about-copy p,.about .team-story p,.unit-detail,.faq-answer,.team-bio,.review-quote,.clinic-services,.hero .hero-description,.hero .hero-note,.hero .hero-trust,.hero .hero-scroll{font-family:'Inter','Montserrat',Arial,sans-serif!important}
+.eyebrow,.hero-kicker,.hero-kicker-clinic,.hero-kicker-location,.procedure-body small,.treatment-category,.procedure-category,.step-number,.gallery-heading .eyebrow,.review-google-badge,.professional-registry,.eyebrow-label{font-family:'Inter',Arial,sans-serif!important;font-weight:600;letter-spacing:.2em;text-transform:uppercase}/* Cor da tipografia solicitada: bronze / dourado escuro. */
+body{color:#3D2E24!important}
+h1,h2,h3,h4,h5,h6,.serif,.section-intro h2,.review-heading h2,.gallery-heading h3,.about-intro h2,.hero .hero-title,.hero .hero-title .hero-last-word,p,.section-intro p,.about-copy p,.about .team-story p,.unit-detail,.faq-answer,.team-bio,.review-quote,.clinic-services,.hero .hero-description,.hero .hero-note,.hero .hero-trust,.hero .hero-scroll,.eyebrow,.hero-kicker,.hero-kicker-clinic,.hero-kicker-location,.procedure-body small,.treatment-category,.procedure-category,.step-number,.gallery-heading .eyebrow,.review-google-badge,.professional-registry,.eyebrow-label{color:#3D2E24!important}
+/* No celular, mantém o CTA inteiro e separa-o da informação de localização. */
+@media(max-width:760px){
+  .hero{height:auto!important;min-height:max(720px,calc(100svh - var(--header-h)))!important;overflow:visible!important;padding:calc(var(--header-h) + 24px) 0 52px!important;align-items:center!important}
+  .hero-grid{height:auto!important;min-height:0!important;align-items:center!important}
+  .hero-copy{height:auto!important;min-height:0!important;overflow:visible!important;padding:20px 0!important}
+  .hero-trust{margin:12px 0 18px!important;line-height:1.7!important}
+  .hero-copy a.hero-button{position:relative!important;z-index:3!important;display:inline-flex!important;flex:0 0 auto!important;margin:0 0 14px!important;overflow:visible!important}
+  .hero-note{display:block!important;position:relative!important;margin:4px 0 0!important;line-height:1.6!important}
+}
+/* Evita que o hero corte o CTA quando a janela do navegador tem pouca altura. */
+@media(min-width:761px){
+  .hero{height:auto!important;min-height:620px!important;overflow:visible!important;padding-top:64px!important;padding-bottom:88px!important}
+  .hero-grid,.hero-copy{height:auto!important;min-height:0!important;overflow:visible!important}
+  .hero-copy a.hero-button{display:inline-flex!important;position:relative!important;z-index:4!important;margin-top:8px!important;margin-bottom:14px!important;min-height:47px!important;height:auto!important;width:max-content!important;max-width:100%!important;padding:0 20px!important;white-space:nowrap!important}
+}
+/* Integra a foto do hero ao fundo perolado, sem uma emenda vertical marcada. */
+@media(min-width:761px){
+  .hero-photo{-webkit-mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.12) 8%,rgba(0,0,0,.62) 20%,#000 34%);mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.12) 8%,rgba(0,0,0,.62) 20%,#000 34%)}
+  .hero-photo:after{background:linear-gradient(90deg,rgba(240,228,216,.78) 0%,rgba(240,228,216,.60) 18%,rgba(240,228,216,.28) 40%,rgba(240,228,216,.02) 72%)!important}
+}
+
+/* Mantém o ponto final unido a 'você' sem incluí-lo no grifo. */
+.hero-word-group{display:inline-block;white-space:nowrap}
+
+
+/* Hero: nome, atuação e cidade em linhas separadas. */
+.hero-kicker-clinic,.hero-kicker-services,.hero-kicker-location{display:block!important;padding:0!important;margin:0!important}
+.hero-kicker-services{margin-top:3px!important}
+.hero-kicker-location{margin-top:3px!important}
+
+
+/* As três linhas informativas do hero usam o mesmo marrom escuro. */
+.hero .hero-kicker-clinic,.hero .hero-kicker-services,.hero .hero-kicker-location{color:#3D2E24!important}
+
+
+/* Tipografia global no dourado-marrom do título de referência (#3D2E24). */
+html body{color:#3D2E24!important}
+html body :not(#codex-keep-button-contrast):not(.hero-button):not(.hero-button *):not(.header-cta):not(.header-cta *):not(.btn):not(.btn *):not(.btn-light):not(.btn-light *):not(.whatsapp-float):not(.whatsapp-float *):not(#faq):not(#faq *){color:#3D2E24!important}
+html body input::placeholder,html body textarea::placeholder{color:#3D2E24!important;opacity:.82}
+
+/* Carrossel Swiper para futuras fotos dos espaços e do atendimento. */
+.clinic-gallery-section{overflow:hidden}
+.clinic-gallery-heading{max-width:850px;margin:0 0 32px}
+.clinic-gallery-heading h2{max-width:780px;margin:12px 0 14px;font-size:clamp(38px,6vw,62px);line-height:1.05}
+.clinic-gallery-heading p{max-width:580px;margin:0;line-height:1.75}
+.clinic-gallery-viewport{width:100%;overflow:hidden;outline:none}
+.clinic-gallery-viewport:focus-visible{outline:2px solid #987D46;outline-offset:5px;border-radius:4px}
+.clinic-gallery-track{display:flex;width:100%;padding:2px 2px 12px;box-sizing:border-box}
+.clinic-gallery-track>.clinic-gallery-card.swiper-slide{width:calc((min(1120px,100vw - 40px) - 40px)/3);height:auto;flex:0 0 auto}
+.clinic-gallery-slot{aspect-ratio:.83;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:24px;border:1px solid rgba(152,125,70,.56);border-radius:7px;background:linear-gradient(145deg,rgba(255,255,255,.44),rgba(228,216,204,.82)),url('./assets/tecido-perolado.jpg') center/cover;color:#3D2E24;text-align:center}
+.clinic-gallery-slot svg{width:38px;height:38px;fill:none;stroke:currentColor;stroke-width:1.35;stroke-linecap:round;stroke-linejoin:round;opacity:.8}
+.clinic-gallery-slot span{max-width:250px;font-size:12px;line-height:1.6;letter-spacing:.045em}
+.clinic-gallery-card h3{margin:13px 2px 0;font:500 clamp(17px,1.8vw,21px)/1.3 'Playfair Display',Georgia,serif;color:#3D2E24}
+.clinic-gallery-controls{display:flex;align-items:center;justify-content:space-between;margin-top:12px}
+.clinic-gallery-count{margin:0;font:600 10px/1 'Inter',Arial,sans-serif;letter-spacing:.14em;color:#3D2E24}
+.clinic-gallery-arrows{display:flex;gap:9px}
+.clinic-gallery-arrows button{display:grid;place-items:center;width:42px;height:42px;border:1px solid #987D46;border-radius:50%;background:rgba(240,228,216,.72);color:#3D2E24;font:400 18px/1 'Inter',Arial,sans-serif;cursor:pointer;transition:background .2s,color .2s,transform .2s}
+.clinic-gallery-arrows button:hover{background:#945E20;color:#fff;transform:translateY(-1px)}
+.clinic-gallery-arrows button:focus-visible{outline:3px solid #987D46;outline-offset:3px}
+.clinic-gallery[data-gallery-fallback] .clinic-gallery-viewport{overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;overscroll-behavior-x:contain}
+.clinic-gallery[data-gallery-fallback] .clinic-gallery-viewport::-webkit-scrollbar{display:none}
+.clinic-gallery[data-gallery-fallback] .clinic-gallery-track{width:max-content;gap:20px}
+.clinic-gallery[data-gallery-fallback] .clinic-gallery-card{scroll-snap-align:start}
+@media(max-width:1023px) and (min-width:761px){.clinic-gallery-track>.clinic-gallery-card.swiper-slide{width:calc((min(1120px,100vw - 40px) - 20px)/2)}}
+@media(max-width:760px){.clinic-gallery-heading{margin-bottom:24px}.clinic-gallery-track>.clinic-gallery-card.swiper-slide{width:82vw}.clinic-gallery-slot{aspect-ratio:.83}.clinic-gallery-slot span{font-size:11px}.clinic-gallery-controls{margin-top:8px}.clinic-gallery[data-gallery-fallback] .clinic-gallery-track>.clinic-gallery-card.swiper-slide{width:82vw}}
+@media(prefers-reduced-motion:reduce){.clinic-gallery-arrows button{transition:none}.clinic-gallery-viewport{scroll-behavior:auto}}
+
+/* Tipografia da descrição conforme a referência enviada. */
+.clinic-gallery-heading p{font-family:'Montserrat',Arial,sans-serif!important;font-size:13px;font-weight:400;letter-spacing:0;line-height:1.65}
+
+/* FAQ em duas colunas, seguindo a referência e focado nos atendimentos da Dra. Izabelle. */
+#faq.faq-section{padding:clamp(70px,9vw,116px) 0}
+#faq .faq-layout{display:grid;grid-template-columns:minmax(290px,.82fr) minmax(0,1fr);gap:clamp(48px,8vw,112px);align-items:start}
+#faq .faq-intro{max-width:430px}
+#faq .faq-intro h2{font-size:clamp(42px,5.4vw,68px);line-height:1.08;letter-spacing:-.025em;margin:22px 0 42px}
+#faq .faq-contact-link{display:inline-flex;align-items:center;gap:12px;padding:0 0 9px;border-bottom:1px solid rgba(148,116,68,.48);font:500 13px/1.4 'Montserrat',Arial,sans-serif;text-decoration:none;color:#3D2E24}
+#faq .faq-contact-link span{font-size:15px;transition:transform .2s ease}
+#faq .faq-contact-link:hover span{transform:translate(2px,-2px)}
+#faq .faq-list.accordion{margin:0;border-top:0}
+#faq .faq-list .accordion-item{border-bottom:1px solid rgba(74,59,50,.2)}
+#faq .faq-list .accordion-item:first-child{border-top:0}
+#faq .faq-list .accordion-item>button{display:flex;align-items:center;justify-content:space-between;gap:18px;width:100%;padding:22px 0;border:0;background:transparent;text-align:left;font:400 15px/1.5 'Montserrat',Arial,sans-serif;color:#4A3B32;cursor:pointer}
+#faq .faq-list .accordion-item>button span{flex:1}
+#faq .faq-list .accordion-item>button b{flex:0 0 auto;font:400 20px/1 'Montserrat',Arial,sans-serif;color:#4A3B32;transition:transform .25s ease}
+#faq .faq-list .accordion-item>button[aria-expanded="true"] b{transform:rotate(45deg)}
+#faq .faq-list .accordion-panel p{padding:0 30px 0 0;margin:0;font:400 13px/1.75 'Montserrat',Arial,sans-serif;color:#4A3B32}
+#faq .faq-list .accordion-item>button[aria-expanded="true"]+.accordion-panel p{padding-bottom:18px}
+@media(max-width:760px){#faq.faq-section{padding:64px 0}#faq .faq-layout{grid-template-columns:1fr;gap:36px}#faq .faq-intro{max-width:560px}#faq .faq-intro h2{font-size:clamp(40px,11vw,58px);margin:16px 0 24px}#faq .faq-list .accordion-item>button{padding:19px 0;font-size:14px}#faq .faq-list .accordion-panel p{font-size:12px}}
+@media(prefers-reduced-motion:reduce){#faq .faq-contact-link span,#faq .faq-list .accordion-item>button b{transition:none}}
+
+/* Tons escuros no FAQ para manter o contraste da referência. */
+#faq .eyebrow{color:#7B6856!important}
+#faq .faq-intro h2{color:#3D2E24!important}
+#faq .faq-list .accordion-item>button,#faq .faq-list .accordion-item>button b,#faq .faq-list .accordion-panel p{color:#3D2E24!important}
+
+/* Letras em marrom-café conforme a referência enviada. */
+body,body *{color:#3D2E24!important}
+.hero{background-color:#F6EDDE!important;color:#3D2E24!important}
+.hero-photo:after{background:linear-gradient(90deg,rgba(246,237,222,.98) 0%,rgba(246,237,222,.96) 34%,rgba(246,237,222,.78) 54%,rgba(246,237,222,.18) 78%,rgba(246,237,222,0) 100%)!important}
+.hero-title,.hero-title *,.hero-description,.hero-note,.hero-trust,.hero-scroll,.hero-kicker,.hero-kicker *{color:#3D2E24!important}
+.btn,.btn *,.btn-light,.btn-light *,.header-cta,.header-cta *,.whatsapp-float,.whatsapp-float *,.instagram-icon,.instagram-icon *,.address-strip,.address-strip *,.hero-button,.hero-button *{color:#fff!important}
+
+/* Instagram: alinhar o bloco de texto ao topo do mosaico, como na referência. */
+#instagram .instagram-layout{align-items:start!important}
+#instagram .instagram-copy{align-self:start!important;margin-top:0!important}
+
+/* Avaliações: composição larga do print, com título em duas linhas e apoio à direita. */
+#avaliacoes .review-heading{display:grid!important;grid-template-columns:minmax(0,700px) minmax(330px,1fr)!important;column-gap:clamp(80px,10.7vw,140px)!important;align-items:center!important;justify-content:space-between!important;row-gap:8px!important}
+#avaliacoes .review-heading .eyebrow{grid-column:1/-1!important;grid-row:1!important;margin:0 0 18px!important;color:#4A3B32!important}
+#avaliacoes .review-heading h2{grid-column:1!important;grid-row:2!important;align-self:center!important;width:100%!important;max-width:700px!important;margin:0!important;color:#3D2E24!important;font-size:clamp(44px,4.2vw,54px)!important;line-height:1.12!important}
+#avaliacoes .review-heading p{grid-column:2!important;grid-row:2!important;align-self:center!important;max-width:410px!important;margin:0!important;color:#4A3B32!important;font-size:16px!important;line-height:1.7!important}
+@media(max-width:1100px) and (min-width:761px){#avaliacoes .review-heading{grid-template-columns:minmax(0,1.25fr) minmax(260px,.9fr)!important;column-gap:clamp(32px,5vw,56px)!important}#avaliacoes .review-heading h2{font-size:clamp(40px,4.7vw,50px)!important}}
+@media(max-width:760px){#avaliacoes .review-heading{grid-template-columns:1fr!important;row-gap:0!important}#avaliacoes .review-heading .eyebrow{grid-row:1!important;margin-bottom:12px!important}#avaliacoes .review-heading h2{grid-column:1!important;grid-row:2!important;font-size:clamp(38px,10vw,52px)!important;margin-bottom:18px!important}#avaliacoes .review-heading p{grid-column:1!important;grid-row:3!important;margin:0!important;font-size:14px!important}}
+
+/* Hero: foto da Dra. mais nítida, com o degradê restrito ao lado do texto. */
+.hero-photo img{filter:saturate(1.02) contrast(1.02) brightness(1.02)!important;object-position:center 24%!important}
+.hero-photo:after{background:linear-gradient(90deg,rgba(246,237,222,.72) 0%,rgba(246,237,222,.48) 22%,rgba(246,237,222,.18) 43%,rgba(246,237,222,.03) 61%,rgba(246,237,222,0) 70%)!important}
+@media(max-width:760px){.hero-photo:after{background:linear-gradient(180deg,rgba(246,237,222,.02) 0%,rgba(246,237,222,.06) 45%,rgba(246,237,222,.38) 78%,#F6EDDE 100%)!important}}
+
+/* Mobile: textura pérola estável, sem attachment fixed, e tipografia sem cortes. */
+@media(max-width:760px){
+  html,body{max-width:100%;overflow-x:hidden!important}
+  body{background-color:#F6EDDE!important;background-image:linear-gradient(rgba(246,237,222,.10),rgba(246,237,222,.10)),url("./assets/tecido-perolado.jpg")!important;background-size:100% 100%,100% auto!important;background-position:center top!important;background-repeat:no-repeat,repeat-y!important;background-attachment:scroll!important}
+  .site-header,.nav,.nav.open,.marquee,section.section:not(.simulator-section),.evaluate,.site-footer{background-color:rgba(246,237,222,.10)!important;background-image:linear-gradient(rgba(246,237,222,.12),rgba(246,237,222,.12)),url("./assets/tecido-perolado.jpg")!important;background-size:100% 100%,100% auto!important;background-position:center top!important;background-repeat:no-repeat,repeat-y!important;background-attachment:scroll!important}
+  #simulador.simulator-section{background-color:#F6EDDE!important;background-image:none!important}
+  .hero{display:block!important;position:relative!important;width:100%!important;height:auto!important;min-height:0!important;overflow:hidden!important;padding:0 0 48px!important;background-color:#F6EDDE!important;background-image:linear-gradient(rgba(246,237,222,.10),rgba(246,237,222,.10)),url("./assets/tecido-perolado.jpg")!important;background-size:100% 100%,100% auto!important;background-position:center top!important;background-repeat:no-repeat,repeat-y!important;background-attachment:scroll!important}
+  .hero-photo{position:relative!important;inset:auto!important;width:100%!important;height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:1.42/1!important;margin:0 0 24px!important;overflow:hidden!important;-webkit-mask-image:none!important;mask-image:none!important}
+  .hero-photo img{display:block!important;width:100%!important;height:100%!important;object-fit:cover!important;object-position:center 22%!important;filter:saturate(1.03) contrast(1.03)!important}
+  .hero-photo:after{background:linear-gradient(180deg,rgba(246,237,222,0) 68%,rgba(246,237,222,.10) 100%)!important}
+  .hero-grid{display:block!important;width:100%!important;max-width:none!important;height:auto!important;min-height:0!important;margin:0!important;padding:0 22px!important}
+  .hero-copy{position:relative!important;z-index:2;width:100%!important;max-width:none!important;height:auto!important;min-height:0!important;margin:0!important;padding:0!important;overflow:visible!important}
+  .hero-kicker{display:flex!important;flex-direction:column!important;gap:2px!important;margin:0 0 16px!important;font:600 9px/1.55 'Inter','Montserrat',Arial,sans-serif!important;letter-spacing:.15em!important;overflow-wrap:normal!important}
+  .hero-title{display:block!important;width:100%!important;max-width:100%!important;margin:0 0 17px!important;font-family:'Playfair Display',Georgia,serif!important;font-size:clamp(38px,10.6vw,47px)!important;font-weight:500!important;line-height:1.08!important;letter-spacing:-.035em!important;text-align:left!important;overflow:visible!important;overflow-wrap:normal!important;word-break:normal!important}
+  .hero-line-mask{display:block!important;overflow:visible!important;padding:0 0 .12em!important}
+  .hero-line{display:block!important;transform:none!important;animation:none!important;white-space:normal!important}
+  .hero-description{max-width:36ch!important;margin:0 0 17px!important;font:400 14px/1.7 'Inter','Montserrat',Arial,sans-serif!important}
+  .hero-trust{margin:0 0 17px!important;font-size:12px!important;line-height:1.6!important}
+  .hero-copy a.hero-button{margin:0 0 14px!important;max-width:100%!important}
+  .hero-note{display:block!important;margin:2px 0 0!important;font-size:12px!important;line-height:1.6!important}
+  section.section:not(.simulator-section){background-attachment:scroll!important}
+  section.section :is(h2.serif,.section-intro h2,.about-intro h2,.review-heading h2,.gallery-heading h3,.clinic-gallery-heading h2){font-size:clamp(34px,9vw,44px)!important;line-height:1.12!important;letter-spacing:-.025em!important;overflow-wrap:normal!important;word-break:normal!important}
+  #avaliacoes .review-heading{grid-template-columns:1fr!important;row-gap:0!important;align-items:start!important}
+  #avaliacoes .review-heading .eyebrow{grid-column:1!important;grid-row:1!important;margin-bottom:12px!important}
+  #avaliacoes .review-heading h2{grid-column:1!important;grid-row:2!important;font-size:clamp(34px,9vw,44px)!important;line-height:1.12!important;margin:0 0 16px!important}
+  #avaliacoes .review-heading p{grid-column:1!important;grid-row:3!important;margin:0!important;font-size:14px!important;line-height:1.7!important}
+}

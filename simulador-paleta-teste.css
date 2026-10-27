@@ -1,0 +1,7 @@
+/* Paleta de teste do simulador; conserva contraste e modo escuro automático. */
+:root{--bg:#F6EDDE;--paper:#FBF5E9;--paper-2:#E8D7BC;--ink:#382E21;--muted:#4D4131;--line:#C7AD7D;--accent:#80521F;--accent-dark:#634017;--focus:#A87931;--shadow:0 24px 70px #49361e1a}
+body{background-color:#F6EDDE;background-image:radial-gradient(ellipse at 12% 8%,rgba(255,255,255,.55),transparent 36%),repeating-linear-gradient(0deg,rgba(108,83,48,.045) 0,rgba(108,83,48,.045) 1px,transparent 1px,transparent 4px)}
+.wizard,.summary-card,.choice-card,.period-card,.answer-card{background-color:#FBF5E9}
+.btn.primary,.btn-primary{background:#80521F;color:#fff}
+@media(prefers-color-scheme:dark){:root{--bg:#211B14;--paper:#30271D;--paper-2:#403423;--ink:#F6EDDE;--muted:#D8C7A9;--line:#9B7B4B;--accent:#D0A854;--accent-dark:#80521F;--focus:#E2BF70;--shadow:0 24px 70px #0005}body{background-image:none}.wizard,.summary-card,.choice-card,.period-card,.answer-card{background-color:#30271D}.btn.primary,.btn-primary{color:#fff}}
+
